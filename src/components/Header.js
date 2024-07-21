@@ -27,11 +27,11 @@ function Header() {
 
   return (
     <div className="d-flex flex-column">
-      <div className="d-flex justify-content-center flex-column align-items-center">
-      <img width="150px" height="150px" src="/logo 2.png" />
+      <div className="d-flex justify-content-center flex-column mb-3 align-items-center">
+      <img width="150px" height="150px" src="/logo.png" />
 
         {/* <h1 className="text-center">PERSONAL TODO APP</h1> */}
-        <b className="m-0 ms-3 h3" >TO DO!</b>
+        <span className="m-0 ms-3 h3" >DO IT!</span>
 
       </div>
       
