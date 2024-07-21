@@ -75,11 +75,11 @@ function IncompleteTodo(props) {
   return (
     <div>
 
-<ul className="mt-3">
+<ul className="mt-3 p-0">
               {props.todos.map((todo, index) => (
                 <li
                   style={listStyle}
-                  className="p-3 border-bottom d-flex justify-content-between "
+                  className="p-sm-3 px-0 py-3 border-bottom d-flex justify-content-between "
                   key={todo.id}
                 >
                   <div className="d-flex align-items-center">
@@ -103,7 +103,7 @@ function IncompleteTodo(props) {
                       <>
                         <button
                           onClick={() => showEditingField(todo.id, todo.task)}
-                          className="btn px-2 py-1 me-3 btn-primary"
+                          className="btn px-2 py-1 me-sm-3 me-1 btn-primary"
                         >
                           <i className="bi bi-pencil-square"></i>
                         </button>
@@ -111,7 +111,7 @@ function IncompleteTodo(props) {
                         <button
                           id="delete-todo"
                           onClick={() => delete_todo(todo.id)}
-                          className="btn px-2 py-1 me-3 btn-danger"
+                          className="btn px-2 py-1 me-sm-3 me-1 btn-danger"
                         >
                           <i className="bi bi-trash3-fill"></i>
                         </button>

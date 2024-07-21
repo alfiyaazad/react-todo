@@ -50,9 +50,9 @@ function TodoSearch() {
   }, [todos]);
 
   return (
-    <div>
+    <div className="">
       <div className="d-flex justify-content-center mb-4">
-        <div className="d-flex col-6">
+        <div className="d-flex col-lg-6 col-md-8 col-11 col-sm-10">
           <input
             type="text"
             className="form-control me-3"

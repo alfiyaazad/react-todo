@@ -65,13 +65,13 @@ function CompletedTodo(props) {
   return (
     <div>
 
-      <ul className="mt-3">
+      <ul className="mt-3 p-0">
       <h6 className="">COMPLETED ({props.todos.length})</h6>
 
         {props.todos.map((todo, index) => (
                 <li
                 style={listStyle}
-                className="p-3 border-bottom d-flex justify-content-between "
+                className="p-sm-3 px-0 py-3 border-bottom d-flex justify-content-between "
                 key={todo.id}
               >
                 <div className="d-flex align-items-center">

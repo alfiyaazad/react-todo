@@ -11,7 +11,7 @@ import IncompleteTodo from "./IncompleteTodo";
 
 function TodoList(props) {
   return (
-    <div>
+    <div className="">
       {props.incomplete.length === 0 && props.completed.length === 0 ? (
         <div
           style={{ minHeight: "60vh" }}
