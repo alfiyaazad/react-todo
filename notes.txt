@@ -1,0 +1,11 @@
+************ CREATING A SLICE *************
+
+
+• Create a slice and export
+
+• Slice => name, initialState, reducer functions
+
+• Reducer Function => state, action
+
+• state.value = action.payload.PROPERTY
+
